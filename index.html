@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Espace Patient</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="language-selection">
+            <select>
+                <option value="fr" selected>Français</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <div class="accessibility-toolbar">
+            <img src="accessibility-icon.png" alt="Accessibility" class="accessibility-icon">
+            <ul class="accessibility-options">
+                <li><button class="zoom-btn">Zoom</button></li>
+                <li><button class="color-change-btn">Changer de couleur</button></li>
+                <li><button class="screen-reader-btn">Lecteur d'écrans</button></li>
+            </ul>
+        </div>
+        <div class="login-form">
+            <h2>Espace Patient - Connexion</h2>
+            <form action="#">
+                <input type="text" placeholder="Nom d'utilisateur" required>
+                <input type="password" placeholder="Mot de passe" required>
+                <button type="submit">Se connecter</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
